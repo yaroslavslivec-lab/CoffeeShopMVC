@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CoffeeShopDomain/CoffeeShopDomain.csproj" />
+  <Project Path="CoffeeShopInfrastructure/CoffeeShopInfrastructure.csproj" />
+</Solution>
