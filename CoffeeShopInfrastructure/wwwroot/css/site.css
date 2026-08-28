@@ -18,7 +18,17 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #f5ebe0;
+}
+
+.table {
+    --bs-table-bg: rgba(0, 0, 0, 0.03);
+}
+
+.form-control {
+    background-color: var(--bs-secondary);
+    color: #fff;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -29,3 +39,4 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+

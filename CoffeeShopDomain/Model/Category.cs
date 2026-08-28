@@ -6,10 +6,9 @@ namespace CoffeeShopDomain.Model;
 
 public partial class Category : BaseEntity
 {
-    [Required(ErrorMessage = "Назва категорії обов'язкова")]
+    [Required(ErrorMessage = "Category name is required")]
     [StringLength(255)]
-    [Display(Name = "Назва категорії")]
-    public string CategoryName { get; set; }
+    public string CategoryName { get; set; } = null!;
 
     public virtual ICollection<Menuitem> Menuitems { get; set; } = new List<Menuitem>();
 }
